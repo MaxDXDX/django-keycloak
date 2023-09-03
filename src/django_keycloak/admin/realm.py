@@ -1,5 +1,5 @@
 from django.contrib import admin, messages
-from django_keycloak_client.exceptions import KeycloakClientError
+from python_keycloak_client.exceptions import KeycloakClientError
 from requests.exceptions import HTTPError
 
 from django_keycloak.models import (

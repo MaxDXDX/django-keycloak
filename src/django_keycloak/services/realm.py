@@ -1,4 +1,4 @@
-from django_keycloak_client.realm import KeycloakRealm
+from python_keycloak_client.realm import KeycloakRealm
 
 try:
     from urllib.parse import urlparse
