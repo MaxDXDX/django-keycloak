@@ -3,7 +3,7 @@ import mock
 from datetime import datetime
 
 from django.test import TestCase
-from keycloak.openid_connect import KeycloakOpenidConnect
+from django_keycloak_client.openid_connect import KeycloakOpenidConnect
 
 from django_keycloak.factories import ClientFactory, \
     OpenIdConnectProfileFactory, UserFactory
