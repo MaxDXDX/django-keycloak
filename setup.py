@@ -33,7 +33,7 @@ setup(
     
     install_requires=[
 #        'python-keycloak-client-pkg==0.3.0',
-#        'Django>=4.1',
+        'Django>=4.1',
     ],
     tests_require=[
         'pytest-django',
